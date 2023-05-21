@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+ margin: 0;
+  padding: 0; 
+  background-color: rgb(203, 223, 223);
+}
+
+nav {
+  background-color: rgb(146, 182, 182);
+  display: flex;
+  align-items: center;
+  height: 14vh;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left:50px;
+  margin-right: 50px;
+}
+
+nav ul li {
+  margin-right: 30px;
+  font-size: 20px;
+}
+
+nav ul li a {
+  color: black;
+}
+
+nav ul li a:hover {
+  color: white;
+  font-size: 22px;
+  transition: ease-in-out;
+  transition-delay: 0.1s;
+  transition-duration: 0.2s;
+}
+
+nav ul li .active {
+  color: black;
+  font-weight: bolder;
+}
+
+.nav-left {
+  flex: 50%;
+}
+
+.nav-right {
+  flex: 50%;
+  text-align: end;
+  margin-right: 80px;
+}
+
+.nav-right a {
+  background-color: rgb(0, 0, 36);
+  padding: 10px 22px;
+  color: white;
+  border-radius: 10px;
+}
+
+.nav-right a:hover{
+  background-color: black;
+  color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
+  margin: 50px 90px;
+  width: 180vh;
+  box-shadow: 0 0 15px rgb(202, 207, 207);
+  background-color: rgb(217, 241, 241);
+  border-radius: 10px;
+}
+
+section {
+  display: flex;
+  width: 80%;
+  margin: 80px 20px;
+}
+
+.left {
+  flex: 70%;
+  margin: 50px 30px 50px -50px;
+  
+}
+
+.right {
+  flex: 30%;
+  margin: 50px -50px 50px 30px;
+  background-color: rgb(200, 230, 255);
+  border-radius: 5px;
+}
+
+.social-media i {
+  margin: 40px auto;
+  padding: 5 15;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.social-media i:hover{
+  background-color: rgb(148, 253, 253);
+  transition-duration: 0.5s;
+  border-radius: 20px;
+  
+}
+
+.lwf{
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.contact{
+  background-color: rgb(0, 0, 41);
+  color: white;
+  border-radius: 30px;
+  border: none;
+  padding: 10px 30px;
+}
+
+.contact:hover{
+  background-color: black;
+  color: aqua;
+}
+
+.cv{
+  background: none;
+  border: none;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.cv:hover {
+  background-color: rgb(148, 253, 253);
+  transition-duration: 0.5s;
+  border-radius: 20px;
+  color: black;
+}
+
+button{
+  margin: 40px 10px;
+  padding: 5 15;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: aqua;
+}
+
